@@ -39,7 +39,7 @@ public class RC {
 	@GetMapping("/get")
 	public String hello17() {
 		// append();
-		return "ci/cd testing";
+		return "ci/cd testing fine";
 	}
 	@GetMapping("/get2")
 	public ResponseEntity<?> hello12(@RequestParam int index) {
