@@ -36,6 +36,11 @@ public class RC {
 		// append();
 		return plist;
 	}
+	@GetMapping("/hello")
+	public String case() {
+		// append();
+		return "hello";
+	}
 	@GetMapping("/get")
 	public String getmethod() {
 		// append();
