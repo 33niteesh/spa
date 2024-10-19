@@ -37,7 +37,7 @@ public class RC {
 		return plist;
 	}
 	@GetMapping("/get")
-	public String hello1() {
+	public String hello17() {
 		// append();
 		return "ci/cd testing";
 	}
