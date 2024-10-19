@@ -36,7 +36,11 @@ public class RC {
 		// append();
 		return plist;
 	}
-	
+	@GetMapping("/get")
+	public ArrayList<Person> hello1() {
+		// append();
+		return "ci/cd testing";
+	}
 	@GetMapping("/get2")
 	public ResponseEntity<?> hello12(@RequestParam int index) {
 		// append();
