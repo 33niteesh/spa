@@ -34,6 +34,7 @@ public class RC {
 	@GetMapping("/get1")
 	public ArrayList<Person> hello1() {
 		// append();
+		System.out.println("in get method");
 		return plist;
 	}
 	@GetMapping("/hello")
