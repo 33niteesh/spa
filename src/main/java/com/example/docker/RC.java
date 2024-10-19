@@ -37,9 +37,9 @@ public class RC {
 		return plist;
 	}
 	@GetMapping("/get")
-	public String hello17() {
+	public String getmethod() {
 		// append();
-		return "ci/cd testing fine";
+		return "ci/cd testing";
 	}
 	@GetMapping("/get2")
 	public ResponseEntity<?> hello12(@RequestParam int index) {
