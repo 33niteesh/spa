@@ -37,7 +37,7 @@ public class RC {
 		return plist;
 	}
 	@GetMapping("/get")
-	public ArrayList<Person> hello1() {
+	public String hello1() {
 		// append();
 		return "ci/cd testing";
 	}
