@@ -20,6 +20,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: run
-      run: cd SPA/target 
+      run: cd spa/target 
     - name: jar
       run: java -jar docker-0.0.1-SNAPSHOT.jar
