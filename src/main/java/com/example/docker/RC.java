@@ -45,7 +45,7 @@ public class RC {
 	@GetMapping("/get")
 	public String getmethod() {
 		// append();
-		return "ci/cd testing";
+		return "ci/cd working";
 	}
 	@GetMapping("/get2")
 	public ResponseEntity<?> hello12(@RequestParam int index) {
