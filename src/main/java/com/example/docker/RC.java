@@ -38,7 +38,7 @@ public class RC {
 		return plist;
 	}
 	@GetMapping("/hello")
-	public String case() {
+ 	public String caseb() {
 		// append();
 		return "hello";
 	}
